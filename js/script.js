@@ -18,7 +18,7 @@ function upDate(previewPic) {
         console.log(pictures.length);
         for (var i=0; i<pictures.length; i++)
         {
-            //pictures[i].setAttribute("tabindex", (i+1))
-            pictures[i].setAttribute("tabindex", "0")
+            pictures[i].setAttribute("tabindex", (i+1))
+            //pictures[i].setAttribute("tabindex", "0")
         }
     }
